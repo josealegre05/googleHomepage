@@ -1,0 +1,109 @@
+/* Reset CSS Default */
+
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    font-size: 16px;     
+}
+
+div, article, aside, dialog, figure, header, hgroup, nav, section, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, strike, strong, em, ol, ul, li, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: 0;
+    background: transparent;
+}
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, blockquote, td, th, a, caption, em, strong, b, i, u, strike {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1; 
+    text-indent: 0;
+    text-decoration: none;
+    text-align: left;
+    color: hsl(0,0,0);
+}
+
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*div {
+    display: inline;
+}*/
+
+/*  End of CSS Reset Default */
+
+a {
+    color: black;
+    padding: 10px;
+}
+
+.header {
+    padding: 30px;
+}
+
+.header .top{
+    display: inline;
+}
+
+.right{
+    float: right;
+}
+
+.logo {
+    width: 600px;
+    position: relative;
+    left: 100px;
+}
+
+.input {
+    width: 800px;
+    height: 60px;
+    position: relative;
+    bottom: 100px;
+}
+
+.center {
+    display: inline;
+    position: relative;
+    top: 300px;
+    left: 1000px;
+}
+
+.search, .lucky{
+    height: 50px;
+    width: 180px;
+    margin: 50px 10px;
+    background-color: rgb(240, 245, 244);
+    font-size: 20px; 
+}
+
+.buttons{
+    display: inline;
+    position: relative;
+    left: 180px;
+    bottom: 100px;
+}
+
+.footer{
+    position: relative;
+    top: 760px;
+}
